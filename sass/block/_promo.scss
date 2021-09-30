@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.promo {
+    background: url('img/bg.jpg') center center/ cover no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+.links__social {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+.link__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
+    img { 
+        height: 150px;
+        width: 150px;
+        transition: 0.5s all;
+        &:hover {
+            height: 220px;
+            width: 220px;
+        }
+    }
+}
+.title {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    line-height: 30px;
+}
